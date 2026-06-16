@@ -1,0 +1,22 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.git
+.gitignore
+# Note: After running `python train.py`, the models/ folder contains
+# wine_classifier.pkl and metadata.json which SHOULD be included in the Docker image.
+# So we do NOT exclude the models directory.
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.md
+!README.md
+k8s/
+train.py
+.ipynb_checkpoints/
